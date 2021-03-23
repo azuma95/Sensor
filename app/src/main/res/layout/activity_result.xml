@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ResultActivity"
+    android:background="@android:color/darker_gray"
     android:orientation="vertical"
     android:gravity="center">
 
@@ -40,6 +41,13 @@
         android:layout_marginTop="50dp"
         android:onClick="tryAgain">
     </Button>
+
+    <Button
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="menu"
+        android:text="Menu"></Button>
 
 
 </LinearLayout>

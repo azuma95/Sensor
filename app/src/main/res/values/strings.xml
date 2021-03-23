@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">JogoSensor</string>
+    <string name="sobreinfo">Neste jogo, move-se para cima e para baixo inclinando o seu telemóvel. Se inclinar para cima, o jogador move-se para cima, caso contrário move-se para baixo.
+    O objetivo é evitar as bolas pretas (caso colida com uma é game over), e apanhar as bolas rosa e laranja. Os seus pontos encontram-se na tabela.</string>
 </resources>

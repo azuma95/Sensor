@@ -2,6 +2,7 @@ package ipvc.estg.jogosensor;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -40,5 +41,9 @@ public class ResultActivity extends AppCompatActivity {
 
     public void tryAgain(View view){
         startActivity(new Intent(getApplicationContext(), Jogo.class));
+    }
+
+    public void menu(View view){
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
 }
